@@ -1,0 +1,254 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+% define colors
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+
+\usepackage[super]{nth}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{coolblack}{{\huge\textcolor{white}{\textbf{\MakeUppercase{Gaetan}}}}} 
+	
+	\colorbox{coolblack}{{\huge\textcolor{white}{\textbf{\MakeUppercase{Verdin-Pol}}}}} 
+	
+	\vspace{6pt}
+	
+
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{MapMarker}{10}{Metz, France}\\
+	\icon{Phone}{10}{+33 6 70 96 73 60}\\
+\end{minipage}
+\begin{minipage}[t]{0.375\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{At}{10}{\href{mailto:gaetan.verdinpol@gmail.com}{gaetan.verdinpol@gmail.com}}\\	
+	\icon{Github}{10}{\href{https://github.com/gueguet/}{github.com/gueguet}}\\
+\end{minipage}
+
+{\huge Computer Science Student}\\
+{\large Cutting edge technologies - Cybersecurity - Curiosity}
+	
+\vspace{0.5cm}
+
+\line(1,0){485}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{April 2019 / \\ Now}
+		{Research Intern}
+		{University of Arkansas at Little Rock}
+		{Main project at the Emerging Analytics Center : \\
+		Exploration of new ways to visualize Cybersecurity Data with Augmented and Virtual Reality
+		Applications for Desktop, HTC Vice, Microsoft Hololens
+		\\ \texttt{C\# - Unity}\slashsep\texttt{Python - CherryPy}\slashsep\texttt{JS - Cytoscape.js - ECharts} \\
+		
+		IoT project : retrieve and store sensor data to display it in a real time web app 
+		 \\ \texttt{Python - Flask}\slashsep\texttt{Google Cloud Platform - IoT Core - Pub/Sub - Cloud Functions} \\
+		 
+		 Data Center Management
+		 \\ \texttt{Linux}\slashsep\texttt{OpenStack}
+		
+		}
+		
+		
+	\entry		
+		{July 2018 / \\ October 2018}
+		{Software Engineer Intern}
+		{Atos}
+		{Back-End and Front-End development of a recruitment application \\
+		Conception and management of the database
+		\\ \texttt{Spring Boot}\slashsep\texttt{Java}\slashsep\texttt{Angular 6}\slashsep\texttt{PostGreSQL}}
+	\entry
+		{August 2017}
+		{Website Developer Intern}
+		{Fish and Chips}
+		{Back-End and Front-End development \\
+		UX Design - {\href{https://fishandchips.lu/}{fishandchips.lu}}
+		\\ \texttt{HTML - CSS - JS}\slashsep\texttt{Bootstrap}\slashsep\texttt{PHP - Laravel}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+
+ 
+
+ 
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{September 2016  / \\ July 2019}
+		{Master's Degree - Augmented and Virtual Reality Engineering}
+		{ Arts et Métiers ParisTech}
+		{Computer Vision, Multi-sensory Interactions, Virtual Reality, Augmented Reality
+		3D modeling, Real-time 3D programming, Parallel Computing\\
+		Computer Science, Electronics, Solid Mechanics, Product Design, Material Science}
+
+	\entry
+		{\nth{2} Semester 2017}
+		{Business Creation Classes}
+		{Les Entrepreneuriales}
+		{Jury's favorite prize}
+	\entry
+		{\nth{1}  Semester 2017}
+		{"Mobile Applications and Services" Classes}
+		{Georgia Tech Lorraine}
+		{Hybrid and native apps development
+		\\ \texttt{Ionic}\slashsep\texttt{Java}\slashsep\texttt{Swift}\slashsep\texttt{Firebase}}
+	\entry
+		{September 2013  / \\ July 2016}
+		{Preparatory Classes for highly selective engineering schools}
+		{Fabert Preparatory School}
+		{ Mathematics, physics and engineering science}
+
+		
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\vspace{0,5cm}
+
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Python}{80}
+		\baritem{Java}{60}
+		\baritem{C\#}{70}
+		\baritem{SQL}{60}
+
+	\end{barchart}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{70}
+		\baritem{C ++}{40}
+		\baritem{PHP}{40}
+		\baritem{HTML / CSS}{60}
+	\end{barchart}
+\end{minipage}
+
+
+\vspace{0.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.35\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Skills}
+	
+	\textbf{Computer Visions \& Deep Learning} \\ 
+	OpenCV - Keras - Tensorflow
+	
+	\textbf{Real-time Engine} \\ 
+	Unity ARCore - ARKit - Vuforia - Mapbox \\
+	Unreal Engine
+	
+	\textbf{3D Modelisation} \\ 
+	3ds Max - Blender - Catia
+	
+
+	
+
+	
+	
+	
+	
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Interests}
+	
+	\textbf{Hobbies} \\
+	Guitarist, 15 years \\
+	Tennis, 10 years \\
+	Running, Climbing \\
+	\textbf{Personality} \\
+	Sociable - Creative \\
+	Self-Taugh - Rigorous 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{French} \\
+	Native \\
+	\textbf{English} \\
+	Fluent \\
+	\textbf{German} \\ 
+	Fluent
+\end{minipage}
+\hfill
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
